@@ -1,15 +1,13 @@
-
-import Header from './components/Header/Header';
+import HomePage from './pages/HomePage/HomePage';
 import './App.scss';
-import Hero from './components/Hero/Hero';
+
+
 
 function App() {
+  
   return (
     <>
-    
-    <Header />
-    <Hero />
-    
+    <HomePage  />
     </>
   );
 }

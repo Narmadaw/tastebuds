@@ -1,0 +1,21 @@
+@use './../../styles/partials/mixin' as *;
+
+
+
+.header{
+    &__logo-text{
+        @include text-logo;
+    }
+}
+
+.nav{
+    
+    &__list{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 2rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+}

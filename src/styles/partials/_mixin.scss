@@ -1,0 +1,22 @@
+@use '../../styles/partials/typography' as *;
+@use '../partials/variables';
+
+@mixin tablet{
+    @media screen and (min-width:$tablet-breakpoint){
+        @content;
+    }
+}
+@mixin desktop{
+    @media screen and (min-width:$desktop-breakpoint){
+        @content;
+    }
+}
+
+//site title
+@mixin text-logo{
+    font-family: "Pacifico";
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+}

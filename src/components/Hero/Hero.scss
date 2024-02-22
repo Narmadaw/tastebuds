@@ -44,6 +44,16 @@
     }
     &__text-container{
         padding: 3rem 2.5rem;
+        
+    }
+    &__text{
+        @include body-text;
+        &--bottom{
+            font-size: 1.25rem;
+        }
+    }
+    &__title{
+        @include section-header;
     }
   
 }

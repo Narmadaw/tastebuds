@@ -1,5 +1,5 @@
 import Card from "./Card/Card"
-
+import './Main.scss'
 const Main = ({categories}) =>{
     return(
         <>
@@ -7,7 +7,7 @@ const Main = ({categories}) =>{
             <section className="categories">
                 {categories.map((element, index) =>{
                     return(
-                        <Card key={index} name={element.strCategory} />
+                        <Card className="categories__card-list" key={index} contents={element} />
                     )
                 })}
                 

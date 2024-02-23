@@ -3,6 +3,7 @@ import axios from 'axios';
 import Main from '../../components/Main/Main';
 import Header from './../../components/Header/Header';
 import Hero from './../../components/Hero/Hero';
+import './HomePage.scss';
 
 const HomePage = () =>{
     const [category, setCategory] = useState([])
@@ -24,13 +25,11 @@ const HomePage = () =>{
 
 
     return (
-        <>
-        <Header />
-        <Hero />
-        <Main categories = {category} />
-
-        
-        </>
+        <section className='container'>
+            <Header />
+            <Hero />
+            <Main categories = {category} />
+        </section>
     )
 }
 

@@ -1,4 +1,14 @@
+@use './../../styles/partials/mixin' as *;
+
+.main{
+    
+}
+
 .categories{
-    margin: 1rem 7.5rem;
-    //background-color: #ffd8ca;
+    &__title{
+        //margin: 1rem 7.5rem;
+        padding: 1rem 0;
+        @include section-header;
+        font-size: 36px
+    }
 }

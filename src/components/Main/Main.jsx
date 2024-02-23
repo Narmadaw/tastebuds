@@ -6,8 +6,11 @@ const Main = ({categories}) =>{
         <>
         <section className="main">
             <section className="categories">
-                <h2>Popular Categories</h2>
+                <h2 className="categories__title">Popular Categories</h2>
                 <CategoryList categories = {categories} />
+            </section>
+            <section className="banner">
+
             </section>
         </section>
         

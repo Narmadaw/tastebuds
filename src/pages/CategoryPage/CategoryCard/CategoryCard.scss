@@ -1,0 +1,19 @@
+
+
+.c-category-card{
+    display: flex;
+    max-width: 300px;;
+    flex-direction: column;
+    &__category-name{
+        font-weight: 600;
+        font-size: 20px;
+        text-wrap: wrap;
+    }
+    &__category-img{
+        width: 300px;
+        border-radius: 10px;
+    }
+}
+
+
+

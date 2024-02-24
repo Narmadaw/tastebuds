@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Main from '../../components/Main/Main';
-import Header from './../../components/Header/Header';
+
 import Hero from './../../components/Hero/Hero';
 import './HomePage.scss';
 
@@ -26,7 +26,7 @@ const HomePage = () =>{
 
     return (
         <section className='container'>
-            <Header />
+            
             <Hero />
             <Main categories = {category} />
         </section>

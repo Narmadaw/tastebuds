@@ -1,17 +1,23 @@
 
-
 .c-category-card{
     display: flex;
     max-width: 300px;;
     flex-direction: column;
+    &:hover{
+        color: #ff642b;
+    }
     &__category-name{
         font-weight: 600;
         font-size: 20px;
         text-wrap: wrap;
     }
     &__category-img{
-        width: 300px;
+        width: 100%;
         border-radius: 10px;
+        transition: transform 0.5s ease;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }
 

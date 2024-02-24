@@ -26,7 +26,6 @@ const HomePage = () =>{
 
     return (
         <section className='container'>
-            
             <Hero />
             <Main categories = {category} />
         </section>

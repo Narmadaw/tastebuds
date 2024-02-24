@@ -27,16 +27,16 @@ const CategoryPage = () =>{
 
     return(
         <>
-        <section>
-        <h1>{category}</h1>
+        <section className='l-category-page'>
+        <h1 className='l-category-page__title'>{category}</h1>
             <hr/>
-        </section>
-        <section className='category-section'>
-            {categoryList.map((element, index) =>{
-                return(
-                    <CategoryCard category = {element} key={index} />
-                )
-            })}
+            <section className='category-section'>
+                {categoryList.map((element, index) =>{
+                    return(
+                        <CategoryCard category = {element} key={index} />
+                    )
+                })}
+            </section>
         </section>
         </>
     )

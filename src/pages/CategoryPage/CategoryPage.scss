@@ -1,7 +1,10 @@
-*{
-    box-sizing: border-box;
+
+.l-category-page{
+    max-width: 1024px;
+    margin: 0 auto;
 }
 .category-section{
+    margin-top: 2.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

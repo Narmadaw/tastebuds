@@ -9,7 +9,10 @@ const Header = () =>{
         </header>
         <nav className="nav">
             <ul className='nav__list'>
-                <li className='nav__list-item'>Home</li>
+                <Link to={"/"}>
+                    <li className='nav__list-item'>Home</li>
+                </Link>
+                
                 <li className='nav__list-item'>Recipe Page</li>
                 <li className='nav__list-item'>About</li>
                 <li className='nav__list-item'>Contacts</li>

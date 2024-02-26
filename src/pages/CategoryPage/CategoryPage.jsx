@@ -31,7 +31,7 @@ const CategoryPage = () =>{
         <h1 className='l-category-page__title'>{category}</h1>
             <hr/>
             <section className='category-section'>
-                {categoryList.map((element, index) =>{
+                {categoryList && categoryList.map((element, index) =>{
                     return(
                         <CategoryCard category = {element} key={index} />
                     )

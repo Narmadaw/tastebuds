@@ -4,9 +4,9 @@ const CategoryList = ({categories}) =>{
     return(
         <>
         <div className="category-list">
-            {categories.map((element, index) =>{
+            {categories && categories.map((element) =>{
                 return(
-                    <Card className="categories__card-list" key={index} contents={element} />
+                    <Card className="categories__card-list" contents={element} />
                 )
             })}
         </div>
